@@ -10,7 +10,6 @@ public class Singleton {
 
 	   //create an object of SingleObject
 	   private static Singleton instance = new Singleton();
-	   private Singleton();
 	   //make the constructor private so that this class cannot be
 	   //instantiated
 	   private Singleton(){;}
@@ -49,4 +48,3 @@ public class Singleton {
 		   return carmodel.getModel(model);
 	   }
 	}
-}

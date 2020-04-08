@@ -8,6 +8,10 @@ public class MAIN {
 		single = Singleton.getInstance();
 		single.getInstance().showMessage();
 		single.getInstance().showCarFactoryMakes();
-	}
+		String myString = "abc";
+		System.out.println (myString);
+		myString = "xyz";
+		System.out.println (myString);		
+	}			
 
 }
